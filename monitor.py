@@ -1,5 +1,12 @@
 import requests
 import telebot
+# import sys
+# sys.path.append("/")
+from tokens import ChatId
+from tokens import TeleBotToken
+
+print(type(ChatId))
+print(type(TeleBotToken))
 
 ## Direcciones a monitorear
 
@@ -12,11 +19,6 @@ types = [4,16]
 ## Punto de partida en la revision de las cuentas (aprox 1-5-2022)
 
 lastId = ['F46uUCkrHZKyvhvRw5DkGLGaASXU5Ufz4RDkHMQb2HLz']
-
-## Tokens y claves
-
-TeleBotToken = "5358385254:AAGYt_tFHe2FdrZzGXANwPbflQfmaNR8r7M"
-ChatId = 844937727
 
 ## Otros parametros
 
